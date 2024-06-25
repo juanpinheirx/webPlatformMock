@@ -1,0 +1,40 @@
+#prev-head > div {
+  display: block;
+  unicode-bidi: isolate;
+}
+
+#prev-head {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 110px;
+  justify-content: space-between;
+  background-color: #fff;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+}
+
+#prev-head {
+  max-width: 1440px;
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+}
+
+#img-logo {
+  width: 76px;
+  height: 33px;
+}
+
+img {
+  max-width: 100%;
+}
+
+img, svg {
+  display: block;
+
+}

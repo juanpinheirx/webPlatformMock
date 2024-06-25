@@ -1,0 +1,33 @@
+#search-input {
+  margin: 23px 0;
+  position: relative;
+  max-width: 1400px;
+  margin-right: auto !important;
+  margin-left: auto !important;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  #search-input {
+    padding: 0 26px;
+  }
+}
+
+@media (max-width: 1100) {
+  #search-input {
+    padding: 0 90px;
+  }
+}
+
+*, ::before, ::after {
+  box-sizing: border-box;
+  border-width: 0;
+  border-style: solid;
+  border-color: currentColor;
+}
+
+div {
+  display: block;
+  unicode-bidi: isolate;
+}
+

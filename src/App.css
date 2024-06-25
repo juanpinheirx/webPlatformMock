@@ -1,5 +1,10 @@
-element.style {
-  --338ae8ce: [object Object];
+#app {
+  font-family: "DM Sans", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+#app {
+  background-color: #fff;
+  line-height: inherit;
 }
 
 *, ::before, ::after {
@@ -7,4 +12,8 @@ element.style {
   border-width: 0;
   border-style: solid;
   border-color: currentColor;
+}
+
+App {
+  display: block;
 }

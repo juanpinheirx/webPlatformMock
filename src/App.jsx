@@ -1,3 +1,4 @@
+import { CarouselDiv } from './components/Carousel/CarouselDiv'
 import { Header } from './components/Header/Header'
 import { SearchBar } from './components/SearchBar/SearchBar'
 
@@ -6,6 +7,7 @@ function App() {
       <div id='app'>
         <Header />
         <SearchBar />
+        <CarouselDiv />
       </div>
   )
 }

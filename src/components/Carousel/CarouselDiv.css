@@ -1,0 +1,12 @@
+#carousel-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 50%;
+  overflow: hidden;
+  margin: 0 auto;
+  border: 1px solid black;
+  border-radius: 50px;
+}
+

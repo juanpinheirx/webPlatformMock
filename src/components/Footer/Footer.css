@@ -1,0 +1,57 @@
+.general-foot {
+  background-color: #313131;
+  width: 100%;
+  min-width: 496px;
+  padding-bottom: 25px;
+}
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  border-width: 0;
+  border-style: solid;
+  border-color: currentColor;
+}
+
+div {
+  display: block;
+  unicode-bidi: isolate;
+}
+
+.general-foot {
+  width: 100%;
+  padding-top: 63px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 1100px) {
+  .default__padding {
+    padding: 0 90px;
+  }
+}
+
+*, ::before, ::after {
+  box-sizing: border-box;
+  border-width: 0;
+  border-style: solid;
+  border-color: currentColor;
+}
+
+div {
+  display: block;
+  unicode-bidi: isolate;
+}
+
+.second-foot {
+  max-width: 1400px;
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+
+.logo-white {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+}
